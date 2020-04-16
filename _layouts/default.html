@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ "/styles/main.css" | absolute_url }}" type="text/css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+
+   
+
+    <title>julie reeb</title>
+</head>
+<body>
+  {% assign header.html = site.pages %}
+  {% assign group = 'navigation' %}
+  {% include header.html %}
+    <div class="container">
+        <div class="cols">
+            <div class="row-content">{{ content }}</div>
+        </div>
+    </div>
+    {% include footer.html %}
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="{{ "/js/main.js" | absolute_url }}"></script>
+</body>

@@ -1,0 +1,158 @@
+/**** INIT ****/
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/**** HEADER ****/
+
+.header{
+    padding: 1.2em .7em;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    font-size: 1.2em;
+    letter-spacing: .2em;
+}
+.title {
+    font-weight: bold;
+}
+
+.active {
+    border: 1px solid black;
+}
+
+.header-barnav {
+    list-style: none;
+    display: flex;
+    margin:0;
+    font-weight: normal;
+    font-size: .8em
+}
+
+.header-barnav > li {
+    margin: 0 3em;
+    padding: 1em;
+}
+
+/**** FOOTER ****/
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+.footer > a {
+    text-decoration: underline;
+}
+
+/**** CAROUSEL HOME ****/
+
+.slider {
+    width: 50%;
+    margin: 100px auto;
+}
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+
+
+.slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: .2;
+}
+
+.slick-active {
+    opacity: .5;
+}
+
+.slick-current {
+    opacity: 1;
+}
+
+/**** ABOUTME ***/
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.about-resume{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-start;
+    padding: 6em;
+}
+
+.about-img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.about-header-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 2em;
+    font-size: .8em;
+}
+
+.about-header-text > span {
+    text-align: left;
+    margin-top: 1.5em;
+
+}
+
+.about-body-description{
+    text-align: justify;
+    text-justify: inter-word;
+    align-self: flex-end;
+    width: 40%;
+    font-size: .8em;
+    padding-right: 7em;
+}
+
+/**** PROJECTS ****/
+
+.card-deck {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.card {
+    margin: 0 1.5em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.img-card {
+    width: 250px;
+    height: 250px;
+}

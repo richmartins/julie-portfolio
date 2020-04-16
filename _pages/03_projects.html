@@ -1,0 +1,20 @@
+---
+title: projets
+permalink: /projects
+layout: default
+group: "navigation"
+---
+
+<div class="card-deck">
+    {% for post in site.posts %}
+        <div class="card">
+            <img class="img-card" alt="{{ post.title }}" src="{{ post.image }}" />
+            <div class="card-content">
+                <h3 class="card-title">{{ post.title }}</h3>
+                <p class="card-text">
+                    {{ post.description }}
+                </p>
+            </div>
+        </div>
+    {% endfor %}
+</div>
