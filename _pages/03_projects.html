@@ -5,16 +5,26 @@ layout: default
 group: "navigation"
 ---
 
-<div class="card-deck">
-    {% for post in site.posts %}
-        <div class="card">
-            <img class="img-card" alt="{{ post.title }}" src="{{ post.image }}" />
-            <div class="card-content">
+<div class="projects">
+    <div class="projects-filter">
+        <select>
+            <option value="">Selectionné une catégorie...</option>
+            {% for post in site.posts %}
+                <option value="{{ post.categories }}"> {{ post.categories }}</option>
+            {% endfor %}
+        </select>
+    </div>
+    <div class="card-deck">
+        {% for post in site.posts %}
+            <div class="card">
+                <div class="hvrbox">
+                    <img class="img-card" alt="{{ post.title }}" src="{{ post.image }}" />
+                    <div class="hvrbox-layer_top">
+                        <div class="hvrbox-text"> {{ post.description }}</div>
+                    </div>
+                </div>
                 <h3 class="card-title">{{ post.title }}</h3>
-                <p class="card-text">
-                    {{ post.description }}
-                </p>
             </div>
-        </div>
-    {% endfor %}
+        {% endfor %}
+    </div>
 </div>
