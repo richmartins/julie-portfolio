@@ -136,8 +136,10 @@ a {
         width: 100%!important;
     }
 
-    .project-bottom-imgs {
-        width: 100%!important;
+    .project-bottom-imgs > img{
+        width: 95%!important;
+        margin: 1em auto!important;
+        display: flex;
     }
 
     .slick-dots {
