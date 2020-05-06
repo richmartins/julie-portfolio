@@ -345,8 +345,7 @@ a {
     padding: 2em;
 }
 .modal-content > img {
-    height: 55%;
-    width: 55%;
+    height: 800px;
 }
 
 .close {
