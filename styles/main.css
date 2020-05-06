@@ -50,6 +50,85 @@ a {
     padding: 1em;
 }
 
+.icon {
+    display: none;
+}
+
+@media screen and (max-width: 800px){
+    .header{
+        margin: .6em .6em;
+    }
+
+    .header-barnav{
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .item-navbar{
+        display: none;
+        margin: .5em 0 !important;
+    }
+
+    .icon {
+        display: block;
+        align-self: flex-end;
+        padding:0 !important;
+        margin: 0 1.5em 0 0 !important;
+    }
+
+    .about-resume{
+        flex-direction: column!important;
+        padding: 0!important;
+        align-items: center !important;
+        margin-bottom: .5em;
+
+    }
+
+    .about-body-description{
+        width: 100% !important;
+        padding: 0 !important;
+        margin: 0 auto;
+        display: flex;
+        width: 80% !important;
+    }
+
+    .project-header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-header-img {
+        width: 100% !important;
+    }
+
+    .project-header-txt {
+        align-items: flex-start!important;
+        justify-content: flex-start!important;
+        width: 100%!important;
+        margin: 1em auto!important;
+    }
+
+    .project-header-txt > div {
+        margin: 0!important;
+    }
+
+    .project-body-txt {
+        flex-direction: row!important;
+        align-items: flex-start!important;
+        margin: 0!important;
+    }
+
+    .project-body-txt > p{
+        width: 100%!important;
+    }
+
+    .slick-dots {
+        bottom: 0!important;
+    }
+}
+
 /**** FOOTER ****/
 
 .footer {
@@ -315,6 +394,10 @@ h3.card-title{
     justify-content: center;
     width: 100%;
     flex-wrap: wrap;
+}
+
+.project-bottom-imgs:hover {
+    pointer:cursor;
 }
 
 .project-bottom-imgs > img {
