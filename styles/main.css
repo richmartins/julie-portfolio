@@ -193,7 +193,7 @@ a {
     flex-direction: row;
     width: 100%;
     justify-content: flex-start;
-    padding: 6em;
+    padding: 4em 1em .5em 4em;
 }
 
 .about-img {

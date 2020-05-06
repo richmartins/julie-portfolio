@@ -45,8 +45,8 @@ $(document).ready(function () {
             modal.css('display', 'none');
         })
     }
+    
     //modal
-
     $('#icon-burger').on('click', function(){
         $('.item-navbar').each(function(){
             if(this.className.includes('responsive')){
