@@ -54,6 +54,8 @@ a {
     display: none;
 }
 
+
+/**** RESPONSIVE ****/
 @media screen and (max-width: 800px){
     .header{
         margin: .6em .6em;
@@ -78,11 +80,8 @@ a {
         margin: 0 1.5em 0 0 !important;
     }
 
-    .about-img {
-        width: auto!important;
-        height: 190px;
-        margin: 0 auto;
-        display: flex;
+    .about-header-text{
+        align-items: flex-start;
     }
 
     .about-resume{
@@ -96,7 +95,7 @@ a {
     .about-body-description{
         width: 100% !important;
         padding: 0 !important;
-        margin: 0 auto;
+        margin: 0 auto!important;
         display: flex;
         width: 80% !important;
     }
@@ -196,24 +195,26 @@ a {
     flex-direction: row;
     width: 100%;
     justify-content: flex-start;
-    padding: 4em 1em .5em 4em;
+    padding: 0;
 }
 
 .about-img {
     width: 50%;
-    justify-content: center;
+    padding: 2em;
 }
 
 .about-img > img{
-    width: 50%;
+    height: 372px;
+    width: 500px;
+    display: inline-block;
 }
 
 .about-header-text {
     display: flex;
     flex-direction: column;
     width: 50%;
-    margin-left: 2em;
     font-size: .8em;
+    margin-right: 1em;
 }
 
 .about-header-text > span {
@@ -226,9 +227,9 @@ a {
     text-align: justify;
     text-justify: inter-word;
     align-self: flex-end;
-    width: 40%;
+    width: 50%;
     font-size: .8em;
-    padding-right: 7em;
+    margin-right: 1em;
 }
 
 /**** PROJECTS ****/
@@ -407,7 +408,7 @@ h3.card-title{
 }
 
 .project-bottom-imgs:hover {
-    pointer:cursor;
+    cursor: pointer;
 }
 
 .project-bottom-imgs > img {
@@ -446,18 +447,4 @@ h3.card-title{
 }
 .modal-content > img {
     height: 800px;
-}
-
-.close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
 }
