@@ -79,7 +79,10 @@ a {
     }
 
     .about-img {
-        width: 90%!important;
+        width: auto!important;
+        height: 190px;
+        margin: 0 auto;
+        display: flex;
     }
 
     .about-resume{
@@ -350,7 +353,7 @@ h3.card-title{
     display: flex;
     flex-direction: column;
     padding: 0 4em;
-    font-size: 1em;
+    font-size: .8em;
 }
 
 .project-header {
