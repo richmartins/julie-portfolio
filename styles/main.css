@@ -78,6 +78,10 @@ a {
         margin: 0 1.5em 0 0 !important;
     }
 
+    .about-img {
+        width: 90%!important;
+    }
+
     .about-resume{
         flex-direction: column!important;
         padding: 0!important;
@@ -196,6 +200,10 @@ a {
     width: 50%;
     display: flex;
     justify-content: center;
+}
+
+.about-img > img{
+    width: 50%;
 }
 
 .about-header-text {
