@@ -372,6 +372,7 @@ h3.card-title{
 }
 .project-header-img > img {
     max-height: 450px;
+    width: auto;
 }
 .project-header-txt {
     display: flex;
