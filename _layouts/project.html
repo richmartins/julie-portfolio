@@ -18,13 +18,18 @@
   {% include header_project.html %}
     <div class="project-container">
        <div class="project-header">
-           <img class="project-header-img" src="{{ page.img_header }}" alt="project-img"/>
+            <div class="project-header-img">
+                <img src="{{ page.img_header }}" alt="project-img"/>
+            </div>
             <div class="project-header-txt">
                 <div class="project-header-txt-meta">
-                    <p>nom du projet : {{ page.project_name }}</p>
-                    <p>type : {{ page.categories }}</p>
-                    <p>date : {{ page.project_date }}</p>
-                    <p>lieu : {{ page.place }}</p>
+                    <b>
+                    <p> {{ page.project_name }}</p>
+                    {% if page.colab %} <p>{{ page.colab}}</p> {% endif %} 
+                    <p> {{ page.categories }}</p>
+                    <p> {{ page.project_date }}</p>
+                    <p> {{ page.place }}</p>
+                    </b>
                 </div>
                 <div>
                     <p style="margin: 1em 0 0 0;">photographe : {{ page. photographe }}</p>
@@ -53,18 +58,54 @@
                     <img src="{{ page.img_bottom3-modal}}" alt="img-modal"/>
                 </div>
             </div>
+            {% if page.img_bottom4 %}
             <img src="{{ page.img_bottom4 }}" alt="img-bottom4" />
             <div class="modal">
                 <div class="modal-content">
                     <img src="{{ page.img_bottom4-modal}}" alt="img-modal"/>
                 </div>
             </div>
+            {% endif %}
+            {% if page.img_bottom5 %}
             <img src="{{ page.img_bottom5 }}" alt="img-bottom5" />
             <div class="modal">
                 <div class="modal-content">
                     <img src="{{ page.img_bottom5-modal}}" alt="img-modal"/>
                 </div>
             </div>
+            {% endif %}
+            {% if page.img_bottom6 %}
+            <img src="{{ page.img_bottom6 }}" alt="img-bottom6" />
+            <div class="modal">
+                <div class="modal-content">
+                    <img src="{{ page.img_bottom6-modal}}" alt="img-modal"/>
+                </div>
+            </div>
+            {% endif %}
+            {% if page.img_bottom7 %}
+            <img src="{{ page.img_bottom7 }}" alt="img-bottom7" />
+            <div class="modal">
+                <div class="modal-content">
+                    <img src="{{ page.img_bottom7-modal}}" alt="img-modal"/>
+                </div>
+            </div>
+            {% endif %}
+            {% if page.img_bottom8 %}
+            <img src="{{ page.img_bottom8 }}" alt="img-bottom8" />
+            <div class="modal">
+                <div class="modal-content">
+                    <img src="{{ page.img_bottom8-modal}}" alt="img-modal"/>
+                </div>
+            </div>
+            {% endif %}
+            {% if page.img_bottom9 %}
+            <img src="{{ page.img_bottom9 }}" alt="img-bottom9" />
+            <div class="modal">
+                <div class="modal-content">
+                    <img src="{{ page.img_bottom9-modal}}" alt="img-modal"/>
+                </div>
+            </div>
+            {% endif %}
         </div>
     </div>
     {% include footer.html %}
