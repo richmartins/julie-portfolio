@@ -22,7 +22,7 @@ a {
 /**** HEADER ****/
 
 .header{
-    padding: 1.2em .7em;
+    margin: 1em 2em;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -165,7 +165,7 @@ a {
 }
 
 .card {
-    margin: 0 1.5em;
+    margin: 1em 1.5em;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -176,7 +176,10 @@ a {
     width: 250px;
     height: 250px;
 }
-
+h3.card-title{
+    margin-top: .1em;
+    font-weight: normal;
+}
 .hvrbox * {
     box-sizing: border-box;
 }
@@ -293,7 +296,7 @@ a {
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-end;
-    margin: 0 2em;
+    margin: 1.5em 2em;
 }
 .project-body-txt > p {
     width: 50%;

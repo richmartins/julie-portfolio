@@ -23,16 +23,14 @@
             </div>
             <div class="project-header-txt">
                 <div class="project-header-txt-meta">
-                    <b>
                     <p> {{ page.project_name }}</p>
                     {% if page.colab %} <p>{{ page.colab}}</p> {% endif %} 
                     <p> {{ page.categories }}</p>
                     <p> {{ page.project_date }}</p>
                     <p> {{ page.place }}</p>
-                    </b>
                 </div>
                 <div>
-                    <p style="margin: 1em 0 0 0;">photographe : {{ page. photographe }}</p>
+                    <p style="margin: 0">{{ page.photographe }}</p>
                 </div>
             </div>
         </div>
