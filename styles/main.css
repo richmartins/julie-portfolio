@@ -270,7 +270,7 @@ a {
     justify-content: flex-end;
 }
 .project-header-img > img {
-    max-width: 70%;
+    max-height: 450px;
 }
 .project-header-txt {
     display: flex;
@@ -305,7 +305,7 @@ a {
     display: flex;
     flex-direction: row;
     align-items: center;
-    /* justify-content: space-between; */
+    justify-content: center;
     width: 100%;
     flex-wrap: wrap;
 }
