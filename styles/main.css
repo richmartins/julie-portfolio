@@ -1,4 +1,12 @@
 /**** INIT ****/
+
+* {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -236,4 +244,104 @@ a {
 
 .hvrbox.active .hvrbox-text_mobile {
     display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+/**** PROJECT LAYOUT ****/
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 4em;
+}
+
+.project-header {
+    display: flex;
+    justify-content: center;
+}
+.project-header-img {
+    width: 50%;
+}
+.project-header-txt {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project-header-txt > div{
+    margin: 0 2em;
+}
+
+.project-header-txt-meta > p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.project-body-txt {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    margin: 0 2em;
+}
+.project-body-txt > p {
+    width: 50%;
+    text-align: justify;
+}
+
+.project-bottom-imgs {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+/**** MODAL ****/
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+.modal-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding : 12em;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
 }
