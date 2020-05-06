@@ -202,31 +202,23 @@ a {
     width: 100%;
 }
 
-.about-resume{
+.about-resume {
     display: flex;
     flex-direction: row;
     width: 100%;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     padding: 0;
 }
 
-.about-img {
-    width: 50%;
-    padding: 2em;
-}
-
-.about-img > img{
-    height: 372px;
-    width: 500px;
-    display: inline-block;
+.about-resume > img {
+    max-height: 500px;
+    width: auto;
 }
 
 .about-header-text {
     display: flex;
     flex-direction: column;
-    width: 50%;
     font-size: .8em;
-    margin-right: 1em;
 }
 
 .about-header-text > span {
