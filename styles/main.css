@@ -148,11 +148,13 @@ a {
     display: flex;
     flex-direction: column;
     width: 100%;
+    padding: 0 1em;
+    align-items: center;
 }
 
 .projects-filter {
     margin: 2.5em;
-    align-self: flex-end;
+    /* align-self: flex-start; */
 }
 
 .card-deck {
