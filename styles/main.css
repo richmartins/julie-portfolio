@@ -257,6 +257,7 @@ a {
     display: flex;
     flex-direction: column;
     padding: 0 4em;
+    font-size: .8em;
 }
 
 .project-header {
@@ -279,7 +280,7 @@ a {
 
 .project-header-txt-meta > p {
     margin-top: 0;
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
 }
 
 .project-body-txt {
