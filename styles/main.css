@@ -110,7 +110,9 @@ a {
     }
 
     .project-header-img {
+        display: flex;
         width: 100% !important;
+        margin: 0 auto;
     }
 
     .project-header-txt {
