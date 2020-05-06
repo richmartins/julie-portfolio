@@ -57,6 +57,10 @@ a {
 
 /**** RESPONSIVE ****/
 @media screen and (max-width: 800px){
+    body, html {
+        overflow-x: hidden;
+    }
+
     .header{
         margin: .6em .6em;
     }
@@ -127,6 +131,10 @@ a {
     }
 
     .project-body-txt > p{
+        width: 100%!important;
+    }
+
+    .project-bottom-imgs {
         width: 100%!important;
     }
 
