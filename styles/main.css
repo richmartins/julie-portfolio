@@ -185,13 +185,13 @@ footer {
     left:0;
     bottom: 0;
     width: 100%;
+    padding: .7em;
 }
 
 .footer {
     text-align: center;
     display:flex ;
     justify-content: center;
-    padding: .7em;
 }
 
 .footer > a {
