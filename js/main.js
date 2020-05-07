@@ -1,3 +1,5 @@
+console.log('-- developed by Richard Martins Tenorio, checkout my github https://gitub.com/richmartins or my web site https://tenorio.dev --')
+
 $(document).ready(function () {
     $(".center").slick({
         dots: true,
