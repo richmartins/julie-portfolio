@@ -15,7 +15,7 @@ $(document).ready(function () {
                         slidesToScroll: 1,
                         infinite: true,
                         dots: false,
-                        centerMode: false
+                        centerMode: true
                         
                     }
                 }]

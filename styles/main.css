@@ -22,7 +22,7 @@ a {
 /**** HEADER ****/
 
 .header{
-    margin: 1em 2em;
+    margin:2em 2em 4em 2em;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -90,6 +90,7 @@ a {
 
     .about-header-text{
         align-items: flex-start;
+        margin-bottom: 4em
     }
 
     .about-resume{
@@ -98,6 +99,10 @@ a {
         align-items: center !important;
         margin-bottom: .5em;
 
+    }
+
+    .about-resume > img {
+        max-height: 250px!important;
     }
 
     .about-body-description{
@@ -159,10 +164,21 @@ a {
 
 /**** FOOTER ****/
 
+footer {
+    position: fixed;
+    background-color: #FFF;
+    color: #000;
+    height: 30px;
+    left:0;
+    bottom: 0;
+    width: 100%;
+}
+
 .footer {
-    display: flex;
-    justify-content: center;
-    padding-top: 2em;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* padding-top: 2em; */
+    text-align: center;
 }
 
 .footer > a {
@@ -172,15 +188,15 @@ a {
 /**** CAROUSEL HOME ****/
 
 .slider {
-    width: 50%;
-    margin: 100px auto;
+    width: 35%;
+    margin: 10em auto;
 }
 
 .slick-slide {
     margin: 0px 20px;
 }
 
-.slick-slide img {
+.slick-slide > img {
     width: 100%;
 }
 
@@ -221,7 +237,7 @@ a {
 }
 
 .about-resume > img {
-    max-height: 500px;
+    max-height: 250px;
     width: auto;
 }
 
