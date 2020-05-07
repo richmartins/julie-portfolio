@@ -119,9 +119,10 @@ a {
     }
 
     .project-header-img > img {
-        display: block;
+        /* display: block; */
         width: 100%!important;
         height: auto!important;
+        object-fit: scale-down;
     }
 
     .project-header-txt {
