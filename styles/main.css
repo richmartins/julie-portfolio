@@ -61,6 +61,10 @@ a {
         overflow-x: hidden;
     }
 
+    section.center.slider{
+        width: 100%;
+    }
+
     .header{
         margin: .6em .6em;
     }
@@ -110,9 +114,14 @@ a {
     }
 
     .project-header-img {
-        display: flex;
-        width: 100% !important;
-        margin: 0 auto;
+        width: 100%!important;
+        margin: 0 auto!important;
+    }
+
+    .project-header-img > img {
+        display: block;
+        width: 100%!important;
+        height: auto!important;
     }
 
     .project-header-txt {
@@ -224,14 +233,13 @@ a {
 .about-header-text > span {
     text-align: left;
     margin-top: 1.5em;
-
 }
 
 .about-body-description{
     text-align: justify;
     text-justify: inter-word;
     align-self: flex-end;
-    width: 50%;
+    width: 40%;
     font-size: .8em;
     margin-right: 1em;
 }
@@ -370,10 +378,12 @@ h3.card-title{
     display: flex;
     justify-content: flex-end;
 }
+
 .project-header-img > img {
-    max-height: 450px;
     width: auto;
+    max-height: 500px;
 }
+
 .project-header-txt {
     display: flex;
     width: 50%;
