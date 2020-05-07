@@ -27,10 +27,11 @@
             <div class="project-header-txt">
                 <div class="project-header-txt-meta">
                     <p> {{ page.project_name }}</p>
-                    {% if page.colab %} <p>{{ page.colab}}</p> {% endif %} 
+                    {% if page.colab %} <p>{{ page.colab}}</p> {% endif %}
                     <p> {{ page.categories }}</p>
                     <p> {{ page.project_date }}</p>
                     <p> {{ page.place }}</p>
+                    {% if page.participant %} <br /><p>{{ page.participant }}</p> {% endif %}
                 </div>
                 <div>
                     <p style="margin: 0">{{ page.photographe }}</p>

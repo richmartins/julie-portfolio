@@ -88,9 +88,22 @@ a {
         margin: 0 1.5em 0 0 !important;
     }
 
+    .about-resume-img {
+        width: 100%!important;
+        justify-content: center!important;
+    }
+    .about-resume-img > img {
+        margin-right: 0!important;
+    }
+
     .about-header-text{
         align-items: flex-start;
+        margin-top: 2em;
         margin-bottom: 4em
+    }
+
+    .about-body-description>span {
+        padding-right: 0!important;
     }
 
     .about-resume{
@@ -175,10 +188,10 @@ footer {
 }
 
 .footer {
-    /* display: flex; */
-    /* justify-content: center; */
-    /* padding-top: 2em; */
     text-align: center;
+    display:flex ;
+    justify-content: center;
+    padding: .7em;
 }
 
 .footer > a {
@@ -232,19 +245,29 @@ footer {
     display: flex;
     flex-direction: row;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: flex-start;
     padding: 0;
 }
 
-.about-resume > img {
+.about-resume-img {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+}
+
+.about-resume-img > img {
+    margin-right: 6em;
     max-height: 250px;
     width: auto;
+    object-fit: scale-down;
 }
 
 .about-header-text {
     display: flex;
     flex-direction: column;
     font-size: .8em;
+    width: 50%;
 }
 
 .about-header-text > span {
@@ -256,9 +279,15 @@ footer {
     text-align: justify;
     text-justify: inter-word;
     align-self: flex-end;
-    width: 40%;
+    width: 50%;
     font-size: .8em;
-    margin-right: 1em;
+    margin-top: 3em;
+}
+
+.about-body-description > span {
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 4em;
 }
 
 /**** PROJECTS ****/
@@ -422,7 +451,7 @@ h3.card-title{
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-end;
-    margin: 1.5em 2em;
+    margin: 5em 2em;
 }
 .project-body-txt > p {
     width: 50%;
