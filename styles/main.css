@@ -173,6 +173,10 @@ a {
     .slick-dots {
         bottom: 0!important;
     }
+
+    footer {
+        position: inherit!important;
+    }
 }
 
 /**** FOOTER ****/
