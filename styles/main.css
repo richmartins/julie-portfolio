@@ -1,6 +1,7 @@
 /**** INIT ****/
 
 * {
+    transition: all 0.3;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -102,8 +103,13 @@ a {
         margin-bottom: 4em
     }
 
+    .about-body-description {
+        display: flex;
+        flex-direction: column;
+    }
     .about-body-description>span {
         padding-right: 0!important;
+        margin-bottom: 1em;
     }
 
     .about-resume{
