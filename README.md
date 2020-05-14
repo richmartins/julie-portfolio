@@ -12,8 +12,8 @@ this a jekyll based web site
     ```git clone git@github.com:richmartins/julie-portfolio.git ```
 1. go to the project folder and install the dependencies
     ```cd julie-portfolio && bundle install```
-1. launch the web serve with the command below and go to 127.0.0.1:4000
-    ```bundle exec jekyll serve```
+1. launch the web serve with this command : ```bundle exec jekyll serve``` and go to [127.0.0.1:4000](http://127.0.0.1:4000)
+    
 
 ## Copyright
 
