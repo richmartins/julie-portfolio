@@ -14,3 +14,7 @@ this a jekyll based web site
     ```cd julie-portfolio && bundle install```
 1. launch the web serve with the command below and go to 127.0.0.1:4000
     ```bundle exec jekyll serve```
+
+## Photo copyright
+
+All the photos that lie in this repository are copyrighted and cannot not be used in any other context other than this web site. If still you would like to use them you can contact always [julie](mailto:contact.julieree.ch) to ask the permition.
