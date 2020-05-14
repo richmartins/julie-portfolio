@@ -17,4 +17,4 @@ this a jekyll based web site
 
 ## Disclamer about the photos
 
-All the photos that lie in this repository are copyrighted and cannot not be used in any other context other than this web site. If still you would like to use them you can contact always [julie](mailto:contact@juliereeb.ch) to ask the permition.
+All the photos that lie in this repository are copyrighted and cannot not be used in any other context other than this web site. If still you would like to use them you can always contact [julie](mailto:contact@juliereeb.ch) to ask the permition.
