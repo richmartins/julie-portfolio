@@ -2,7 +2,7 @@
 
 this a jekyll based web site
 
-## Installation
+## Installation
 
 1. install [ruby](https://www.ruby-lang.org/en/)
 1. install [bundler](https://bundler.io/)
@@ -15,6 +15,6 @@ this a jekyll based web site
 1. launch the web serve with the command below and go to 127.0.0.1:4000
     ```bundle exec jekyll serve```
 
-## Photo copyright
+## Copyright
 
-All the photos that lie in this repository are copyrighted and cannot not be used in any other context other than this web site. If still you would like to use them you can contact always [julie](mailto:contact.julieree.ch) to ask the permition.
+All the photos that lie in this repository are copyrighted and cannot not be used in any other context other than this web site. If still you would like to use them you can contact always [julie](mailto:contact@juliereeb.ch) to ask the permition.
