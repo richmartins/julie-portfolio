@@ -15,6 +15,6 @@ this a jekyll based web site
 1. launch the web serve with this command : ```bundle exec jekyll serve``` and go to [127.0.0.1:4000](http://127.0.0.1:4000)
     
 
-## Disclamer about the photos
+## Disclaimer about the photos
 
 All the photos that lie in this repository are copyrighted and cannot not be used in any other context other than this web site. If still you would like to use them you can always contact [julie](mailto:contact@juliereeb.ch) to ask the permition.
