@@ -445,6 +445,7 @@ h3.card-title{
     width: 50%;
     flex-direction: column;
     justify-content: space-between;
+    text-transform: lowercase;
 }
 
 .project-header-txt > div{
