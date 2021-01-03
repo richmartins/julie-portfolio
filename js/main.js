@@ -27,11 +27,14 @@ $(document).ready(function () {
         $('.card').each(function(i){
             if(cat == 'all'){
                 $(this).removeClass('hidden');
+                $(this).parent('a').css('position', 'static');
             }
             else if(this.className.includes(cat)){
                 $(this).removeClass('hidden');
+                $(this).parent('a').css('position', 'static');
             }else{
                 $(this).addClass(" hidden");
+                $(this).parent('a').css('position', 'absolute');
             }
         })
     })

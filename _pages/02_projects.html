@@ -18,15 +18,15 @@ group: "navigation"
     <div class="card-deck">
     {% for post in site.posts %}
             <a href="{{ post.title}}">
-            <div class="card {{ post.categories }}">
-                <div class="hvrbox">
-                    <img class="img-card" alt="{{ post.project_name }}" src="{{ post.image }}" />
-                    <div class="hvrbox-layer_top">
-                        <div class="hvrbox-text"> {{ post.description }}</div>
+                <div class="card {{ post.categories }}">
+                    <div class="hvrbox">
+                        <img class="img-card" alt="{{ post.project_name }}" src="{{ post.image }}" />
+                        <div class="hvrbox-layer_top">
+                            <div class="hvrbox-text"> {{ post.description }}</div>
+                        </div>
                     </div>
+                    <h3 class="card-title" style="font-size: 1em">{{ post.project_name }}</h3>
                 </div>
-                <h3 class="card-title" style="font-size: 1em">{{ post.project_name }}</h3>
-            </div>
             </a>
         {% endfor %}
     </div>
