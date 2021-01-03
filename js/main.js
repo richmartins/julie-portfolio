@@ -18,7 +18,6 @@ $(document).ready(function () {
                         infinite: true,
                         dots: false,
                         centerMode: true
-                        
                     }
                 }]
     });
@@ -47,21 +46,17 @@ $(document).ready(function () {
             modal.css('display', 'none');
         })
     }
-    
-    //modal
+
     $('#icon-burger').on('click', function(){
-        $('.item-navbar').each(function(){
-            if(this.className.includes('responsive')){
-                $(this).removeClass('responsive')
-                $(this).css('display', 'none')
-            } else {
-                $(this).css('display', 'block').addClass('responsive');
-            }
-        })
+        if($('.header-barnav')[0].className.includes('toggled')){
+            $('.header-barnav')[0].classList.remove('toggled');
+        } else {
+            $('.header-barnav')[0].classList.add('toggled');
+        }
     })
 });
 
 
 
 
- 
+

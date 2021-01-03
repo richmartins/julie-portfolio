@@ -1,14 +1,7 @@
 /**** INIT ****/
 
-* {
-    transition: all 0.3;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -o-transition: all 0.3s;
-}
 
-html, body {
+*, html, body {
     margin: 0;
     padding: 0;
     font-family: 'roboto', sans-serif;
@@ -51,7 +44,7 @@ a {
     padding: 1em;
 }
 
-.icon {
+#icon-burger {
     display: none;
 }
 
@@ -67,26 +60,33 @@ a {
     }
 
     .header{
-        margin: .6em .6em;
+        margin: .4em .6em;
+    }
+    .inner-header-container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
     }
 
     .header-barnav{
         display: flex;
+        transition: height 1s ease;
+        height: 0px;
         justify-content: flex-end;
         flex-direction: column;
         align-items: flex-end;
     }
 
-    .item-navbar{
-        display: none;
+    .header-barnav.toggled {
+        height: 200px;
+    }
+
+    .item-navbar {
         margin: .5em 0 !important;
     }
 
-    .icon {
+    #icon-burger {
         display: block;
-        align-self: flex-end;
-        padding:0 !important;
-        margin: 0 1.5em 0 0 !important;
     }
 
     .about-resume-img {
@@ -324,10 +324,9 @@ footer {
 
 .card {
     margin: 1em 1.5em;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-self: flex-start;
+    position: static;
+    opacity: 1;
+    transition: opacity .5s linear;
 }
 
 .img-card {
@@ -337,6 +336,7 @@ footer {
 h3.card-title{
     margin-top: .1em;
     font-weight: normal;
+    text-align: center;
 }
 .hvrbox * {
     box-sizing: border-box;
@@ -374,8 +374,6 @@ h3.card-title{
     -webkit-transition: all 0.4s ease-in-out 0s;
     -ms-transition: all 0.4s ease-in-out 0s;
     transition: all 0.4s ease-in-out 0s;
-
-        
 }
 
 .hvrbox:hover .hvrbox-layer_top,
@@ -413,7 +411,8 @@ h3.card-title{
 }
 
 .hidden {
-    display: none;
+    opacity: 0;
+    position: absolute;
 }
 
 /**** PROJECT LAYOUT ****/

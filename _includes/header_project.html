@@ -1,6 +1,6 @@
 <div class="header">
     <a href="{{ "/" | absolute_url }}"><div class="title">julie reeb</div></a>
-    <div>
+    <div class="inner-header-container">
         <ul class="header-barnav">
             {% for node in site.pages %}
                 {% if node.title == "projets" %}
@@ -9,12 +9,10 @@
                     <li class="item-navbar"><a href="{{node.url}}">{{node.title}}</a></li>
                 {% endif %}
             {% endfor %}
-                <li class="icon">
-                    <a id="icon-burger" >
-                        <i class="fa fa-bars"></i>
-                    </a>
-                </li>
             {% assign group = 'navigation' %}
         </ul>
+        <a id="icon-burger" >
+            <i class="fa fa-bars"></i>
+        </a>
     </div>
 </div>
