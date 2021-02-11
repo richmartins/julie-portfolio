@@ -1,5 +1,5 @@
 ---
-title: "health issue"
+title: "health_issue"
 layout: project
 image: '/assets/health_issue/00_couverture_hi.jpg'
 description: "Création d'un quartier sain dans le Citroën Cultural Centre"
