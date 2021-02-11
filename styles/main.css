@@ -514,8 +514,12 @@ h3.card-title{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2em;
+    margin: 2em auto;
+    width: 80%;
+    height: 80%;
 }
 .modal-content > img {
-    height: 800px;
+    max-height: 100%;
+    max-width: 100%;
+    display: inline-block;
 }
