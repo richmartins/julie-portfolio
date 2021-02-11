@@ -1,12 +1,12 @@
 ---
 title: "health_issue"
 layout: project
-image: '/assets/health_issue/00_couverture_hi.jpg'
+image: '/assets/health_issue/00_couverture_hi.png'
 description: "Création d'un quartier sain dans le Citroën Cultural Centre"
 permalink: '/projects/health_issue'
 categories: Aménagement
 
-img_header: '/assets/health_issue/00_couverture_hi.jpg'
+img_header: '/assets/health_issue/00_couverture_hi.png'
 project_name: "health issue"
 # colab: "Joann Tan Studio, Ambroise Degenève"
 project_date: '2021'
