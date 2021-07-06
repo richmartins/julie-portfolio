@@ -1,9 +1,9 @@
 ---
-title: "porte à porte"
+title: "porte_a_porte"
 layout: project
 image: '/assets/pap/00_pap_couv.png'
 description: "Evolution d'un logement selon différentes étapes de vie"
-permalink: '/projects/pap'
+permalink: '/projects/porte_a_porte'
 categories: Aménagement
 
 img_header: '/assets/domotopie/couv_domotopie.png'
