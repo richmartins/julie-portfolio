@@ -8,7 +8,7 @@ categories: Aménagement
 
 img_header: '/assets/domotopie/couv_domotopie.png'
 project_name: "domotopie"
-# colab: "LaSur EPFL"
+colab: "LaSur EPFL"
 project_date: '2021'
 place: 'Genève'
 participant: ""
