@@ -12,7 +12,7 @@ colab: ""
 project_date: '2021'
 place: 'Genève'
 participant: ""
-photographe: ''
+photographe: '© Michel Giesbrecht'
 
 desc: "
 Suite à un entretien effectué au sein d’une famille de la Cité Vieusseux, il a été démontré que les rythmes et les activités sont acteurs de divers conflits spatiaux. Se situant au sixième étage, cet espace ne définit pas suffisamment d’évolution des espaces privés ainsi que de souplesse d’appropriation. Mon projet se divise en trois axes : la gradation de l’intime, la dilatation saisonnière permise grâce aux espaces tempérés et finalement, une évolution des typologies par le dispositif des portes.
