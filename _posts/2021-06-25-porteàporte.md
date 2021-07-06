@@ -6,7 +6,7 @@ description: "Evolution d'un logement selon différentes étapes de vie"
 permalink: '/projects/porte_a_porte'
 categories: Aménagement
 
-img_header: '/assets/domotopie/00_pap_couv.png'
+img_header: '/assets/pap/00_pap_couv.png'
 project_name: "porte à porte"
 colab: ""
 project_date: '2021'
