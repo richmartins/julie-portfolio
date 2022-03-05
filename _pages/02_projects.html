@@ -8,7 +8,7 @@ group: "navigation"
 <div class="projects">
     <div class="projects-filter">
         <select id="project-filter">
-            <option selected value="all">Selectionné une catégorie...</option>
+            <option selected value="all">sélectionnez une catégorie...</option>
             {% for category in site.categories %}
                 {% capture category_name %}{{ category | first }}{% endcapture %}
                 <option value="{{ category_name | slugsize }}"> {{ category_name }}</option>
