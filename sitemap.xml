@@ -9,52 +9,77 @@
 
 <url>
   <loc>https://juliereeb.ch/</loc>
-  <lastmod>2020-05-07T19:31:04+00:00</lastmod>
+  <lastmod>2022-03-09T08:01:58+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://juliereeb.ch/about</loc>
-  <lastmod>2020-05-07T19:31:04+00:00</lastmod>
+  <loc>https://juliereeb.ch/projects/</loc>
+  <lastmod>2022-03-09T08:01:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://juliereeb.ch/projects/</loc>
-  <lastmod>2020-05-07T19:31:04+00:00</lastmod>
+  <loc>https://juliereeb.ch/about</loc>
+  <lastmod>2022-03-09T08:01:58+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://juliereeb.ch/projects/porte_a_porte</loc>
+  <lastmod>2022-03-09T08:01:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://juliereeb.ch/projects/domotopie</loc>
+  <lastmod>2022-03-09T08:01:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://juliereeb.ch/projects/health_issue</loc>
+  <lastmod>2022-03-09T08:01:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://juliereeb.ch/projects/atelier</loc>
+  <lastmod>2022-03-09T08:01:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://juliereeb.ch/projects/dune</loc>
+  <lastmod>2022-03-09T08:01:58+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://juliereeb.ch/projects/plage</loc>
-  <lastmod>2020-05-07T19:31:04+00:00</lastmod>
+  <lastmod>2022-03-09T08:01:58+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://juliereeb.ch/projects/boite_en_valise</loc>
-  <lastmod>2020-05-07T19:31:04+00:00</lastmod>
+  <lastmod>2022-03-09T08:01:58+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://juliereeb.ch/projects/create</loc>
-  <lastmod>2020-05-07T19:31:04+00:00</lastmod>
+  <lastmod>2022-03-09T08:01:58+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://juliereeb.ch/projects/moon_club</loc>
-  <lastmod>2020-05-07T19:31:04+00:00</lastmod>
+  <lastmod>2022-03-09T08:01:58+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://juliereeb.ch/projects/the_ring_in_the_stone</loc>
-  <lastmod>2020-05-07T19:31:04+00:00</lastmod>
+  <lastmod>2022-03-09T08:01:58+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://juliereeb.ch/projects/dressed_as_concrete</loc>
-  <lastmod>2020-05-07T19:31:04+00:00</lastmod>
+  <lastmod>2022-03-09T08:01:58+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://juliereeb.ch/projects/haut_juice</loc>
-  <lastmod>2020-05-07T19:31:04+00:00</lastmod>
+  <lastmod>2022-03-09T08:01:58+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
